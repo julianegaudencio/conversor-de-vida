@@ -12,7 +12,7 @@ body {
 .container {
     text-align: center;
     padding: 20px;
-    height: 100vh;
+  
 }
 
 .title p {
@@ -85,4 +85,35 @@ q {
 
 small {
     font-size: 15px;
+}
+
+/************* responsive */
+
+@media(max-width: 460px) {
+    body {
+        top: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .gif {
+        width: 260px;
+    }
+
+    q {
+        width: 250px;
+        font-size: 14px;
+    }
+
+    .citacao {
+        margin: auto;
+        width: 250px;
+    }
+
+    small {
+        font-size: 12px;
+    }
 }
