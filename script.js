@@ -7,7 +7,11 @@ function calcular(){
     var result = parseInt(diferencaDias)
 
     
-    document.getElementById('result').innerHTML =  "Você está vivendo há "+ result + " dias!";
+    document.getElementById('result').innerHTML =  "Você está vivendo há "+ formatNumber(result) + " dias!";
 
+}
+
+function formatNumber(num) {
+  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1.')
 }
 
