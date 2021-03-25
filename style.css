@@ -11,7 +11,6 @@ body {
 
 .container {
     text-align: center;
-    padding: 20px;
   
 }
 
@@ -69,6 +68,7 @@ button:focus {
 .gif {
     margin-top: 40px;
     width: 500px;
+    
 }
 
 q {
@@ -84,7 +84,30 @@ q {
 }
 
 small {
-    font-size: 15px;
+    font-size: 14px;
+}
+
+footer {
+    top: 95%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+footer p {
+    color: #ac63d6;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #c6a6d8b6;
 }
 
 /************* responsive */
@@ -95,25 +118,38 @@ small {
         text-align: center;
     }
 
+    .container {
+        text-align: center;
+        padding-top: 30px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
     h1 {
         font-size: 28px;
     }
 
     .gif {
         width: 260px;
+        margin-left: -5px;
     }
 
     q {
+        margin-top: 5px;
         width: 250px;
         font-size: 14px;
     }
 
     .citacao {
-        margin: auto;
         width: 250px;
     }
 
     small {
-        font-size: 12px;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    span {
+        margin-top: 5px;
     }
 }
